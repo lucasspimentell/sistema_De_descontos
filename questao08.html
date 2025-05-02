@@ -1,0 +1,39 @@
+<!--8- Faça um algoritmo que receba um valor de um produto e o valor máximo de desconto (em 
+porcentagem) que pode ser dado a este produto. Calcule e exiba o valor com desconto, de acordo 
+com as informações informadas.  
+Ex: O produto custa R$ 100 e o desconto 10%, o valor com desconto vai ser R$ 90-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>SISTEMA DE DESCONTO</title>
+</head>
+
+<body>
+    <section>
+        <div id="container">
+
+            <div id="valores">
+                valor
+                <input type="number" name="val" id="val">
+            </div>
+
+            <div id="descontar">
+                desconto
+                <input type="number" name="descon" id="descon">
+            </div>
+
+            <div id="botao"> <input id="bo" type="button" value="Calcular" onclick="calcular()"></div>
+
+        </div>
+        <div id="res">RESULTADO</div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
